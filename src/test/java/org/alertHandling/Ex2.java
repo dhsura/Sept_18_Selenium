@@ -26,6 +26,7 @@ public class Ex2 {
 			System.out.println("Alert is Not Displayed");
 		}
 		System.out.println("Program ends");
+		System.out.println("Bye");
 		driver.quit();
 		
 	
