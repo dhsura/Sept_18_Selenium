@@ -23,7 +23,8 @@ public class ActiTimeLogin2 {
 //		WebDriverWait wt = new WebDriverWait(driver,Duration.ofSeconds(50));
 //		wt.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(".logout"))));
 		
-		Bu.WaitForVisibilityByType(driver, 25,"cssSelector", ".logout");
+//		Bu.WaitForVisibilityByType(driver, 25,"cssSelector", ".logout");
+		Bu.WaitForVisibilityByType(driver, 15, "id", "logout");
 		
 		driver.findElement(By.cssSelector(".logout"));
 		
