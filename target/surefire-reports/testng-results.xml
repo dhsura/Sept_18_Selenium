@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-20T18:05:26 IST" name="Suite" finished-at="2023-08-20T18:06:09 IST" duration-ms="43315">
+    <groups>
+    </groups>
+    <test started-at="2023-08-20T18:05:26 IST" name="Test" finished-at="2023-08-20T18:06:09 IST" duration-ms="43315">
+      <class name="org.testNgEx3.ParameterEx">
+        <test-method signature="loginTC(java.lang.String,java.lang.String)[pri:0, instance:org.testNgEx3.ParameterEx@3d680b5a]" started-at="2023-08-20T18:05:26 IST" name="loginTC" finished-at="2023-08-20T18:06:09 IST" duration-ms="43206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTC -->
+      </class> <!-- org.testNgEx3.ParameterEx -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2023-08-20T18:06:09 IST" name="Suite (0)" finished-at="2023-08-20T18:06:09 IST" duration-ms="24">
+    <groups>
+      <group name="Regression">
+        <method signature="GroupEx.CreateCustomer()[pri:3, instance:org.testNgEx3.GroupEx@72057ecf]" name="CreateCustomer" class="org.testNgEx3.GroupEx"/>
+        <method signature="GroupEx.deleteCustomer()[pri:6, instance:org.testNgEx3.GroupEx@72057ecf]" name="deleteCustomer" class="org.testNgEx3.GroupEx"/>
+      </group> <!-- Regression -->
+      <group name="UAT">
+        <method signature="GroupEx.updateCustomer()[pri:4, instance:org.testNgEx3.GroupEx@72057ecf]" name="updateCustomer" class="org.testNgEx3.GroupEx"/>
+        <method signature="GroupEx.deleteCustomer()[pri:6, instance:org.testNgEx3.GroupEx@72057ecf]" name="deleteCustomer" class="org.testNgEx3.GroupEx"/>
+      </group> <!-- UAT -->
+    </groups>
+    <test started-at="2023-08-20T18:06:09 IST" name="Test" finished-at="2023-08-20T18:06:09 IST" duration-ms="24">
+      <class name="org.testNgEx3.GroupEx">
+        <test-method signature="CreateCustomer()[pri:3, instance:org.testNgEx3.GroupEx@72057ecf]" started-at="2023-08-20T18:06:09 IST" name="CreateCustomer" finished-at="2023-08-20T18:06:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method signature="updateCustomer()[pri:4, instance:org.testNgEx3.GroupEx@72057ecf]" started-at="2023-08-20T18:06:09 IST" name="updateCustomer" finished-at="2023-08-20T18:06:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCustomer -->
+        <test-method signature="deleteCustomer()[pri:6, instance:org.testNgEx3.GroupEx@72057ecf]" started-at="2023-08-20T18:06:09 IST" name="deleteCustomer" finished-at="2023-08-20T18:06:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:100, instance:org.testNgEx3.GroupEx@72057ecf]" started-at="2023-08-20T18:06:09 IST" name="logout" finished-at="2023-08-20T18:06:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- org.testNgEx3.GroupEx -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
