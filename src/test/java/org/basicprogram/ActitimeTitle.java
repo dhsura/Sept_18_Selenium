@@ -9,16 +9,16 @@ public class ActitimeTitle {
 		System.out.println("Program Start");
 		BaseUtility obj = new BaseUtility ();
 		WebDriver driver = obj.startUp("ch","http://localhost:93/login.do");
-		String actiTitle = driver.getTitle();
-		System.out.println("Actual Title = "+actiTitle);
+		
+		System.out.println("Actual Title = "+driver.getTitle());
 		if(driver.getTitle().equals("actiTIME - Login")) {
 			System.out.println("Login Title is as Expected");
 		}else {
 			System.out.println("Login Title is Not as Expected");
 		}
 		System.out.println("###########################################");
-		String actURL = driver.getCurrentUrl();
-		System.out.println("Actual Url = "+actURL );
+		
+		System.out.println("Actual Url = "+driver.getCurrentUrl() );
 		if(driver.getCurrentUrl().equals("http://localhost:93/login.do")) {
 			System.out.println("Login URL is as Expected");
 		}else { 
